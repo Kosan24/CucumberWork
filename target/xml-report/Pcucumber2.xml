@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.235">
-    <testcase classname="Dinamik Elemanlar" name="Dinamik elementler tiklanabilmeli" time="9.061">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.787">
+    <testcase classname="Register_User_Functionality" name="Register page(kayit sayfasi)" time="7.685">
         <system-out>
-            <![CDATA[Given l'utilisateur va sur la page "DemoQaUrl"..............................passed
-Then Will enable 5 seconds butonunun enable olmasini bekler.................passed
-And Will enable 5 seconds butonunun enable oldugunu test eder...............passed
+            <![CDATA[Given l'utilisateur va sur la page automation_url...........................passed
+And ana sayfanin gorunur oldugunu test eder.................................passed
+Then kullanici signup-login butonuna tiklar.................................passed
+And kullanici New user Signup! in gorunur oldugunu test eder................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Register_User_Functionality" name="SignUp user (ilk kayit)" time="8.852">
+        <system-out>
+            <![CDATA[Given kullanici olarak isim ve maili girer..................................passed
+And signup butonuna tiklar..................................................passed
+Then acilan sayfada ENTER ACCOUNT INFORMATION yazisinn gorunur oldugunu test eder.passed
+Then kullanici ayrintilari (birinci bolum) doldurur.........................passed
+Then kullanici Sign up for our newsletter! checkbox ini secer...............passed
+Then kullanici Receive special offers from our partners! checkbox ini secer.passed
+Then kullanici ayrintilari (ikinci bolum) doldurur..........................passed
+Then kullanici Create Account butonuna tiklar...............................passed
+Then kullanici hesabin olustugunu dogrular..................................passed
 ]]>
         </system-out>
     </testcase>

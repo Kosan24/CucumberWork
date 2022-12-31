@@ -11,9 +11,8 @@ import org.junit.runner.RunWith;
                   "junit:target/xml-report/Pcucumber2.xml"}, //RAPORLAMA
           features = "src/test/resourcess/features", //Features nerde bulacagimizi
           glue = "stepdefinitions",    // Java komutlarini nerede arayacagimiz
-          tags = "@Dinamik", // Hangi seneryolari calistiracagimizi belirtiyor
+          tags = "@calisma", // Hangi seneryolari calistiracagimizi belirtiyor
           dryRun = false
-
   )
 
 public class Runner {
